@@ -1,0 +1,60 @@
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box > * {
+  flex: 0 0 33.3333%;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 3.125rem;
+}
+.show:hover {
+  display: block;
+}
+.full {
+  /* display: inline-block; */
+  height: 40rem;
+}
+.imgBox {
+  position: relative;
+  top: 7px;
+  left: 5px;
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
+}
+.quizdragbox {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border: 1px dotted gray;
+}
+.pictureBox1 {
+  background-image: url("./Helper/Joseph.png");
+  background-size: contain;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border: 1px dotted gray;
+}
+.pictureBox2 {
+  background-image: url("./Helper/Kevin.png");
+  background-size: contain;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border: 1px dotted gray;
+}
+.pictureBox3 {
+  background-image: url("./Helper/Nicholas.png");
+  background-size: contain;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border: 1px dotted gray;
+}
+.px-10 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
